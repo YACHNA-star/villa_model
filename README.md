@@ -12,4 +12,13 @@ http://localhost:1234/Employees/Details/1
 
 ## Default view
 
+<img width="602" height="758" alt="image" src="https://github.com/user-attachments/assets/7c53b111-c72e-4f3b-bf22-99965c93b219" />
+
+### default view
+
+ _ViewStart.cshtml in the Views folder sets the Layout property to "~/Views/Shared/_Layout.cshtml". So, the _layout.cshtml would be a layout view of all the views included in Views and its subfolders.
+
+ ### we can hange default view
+  _ViewStart.cshtml in the Home folder sets the Layout property to _myLayoutPage.cshtml. So now, Index.cshtml, About.cshtml and Contact.cshtml will display in the _myLayoutPage.cshtml instead of default _Layout.cshml.
+
 
