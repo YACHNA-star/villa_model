@@ -21,4 +21,7 @@ http://localhost:1234/Employees/Details/1
  ### we can hange default view
   _ViewStart.cshtml in the Home folder sets the Layout property to _myLayoutPage.cshtml. So now, Index.cshtml, About.cshtml and Contact.cshtml will display in the _myLayoutPage.cshtml instead of default _Layout.cshml.
 
+  #Data model?
+  https://dev.to/skipperhoa/asp-net-mvc-5-using-dbcontext-connect-database-3846
+
 
